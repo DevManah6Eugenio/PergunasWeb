@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Pergunta {
     
-    String titulo;
-    String descricao;
-    Date criacao;
+    private String titulo;
+    private String descricao;
+    private Date criacao;
 
     public String getTitulo() {
         return titulo;
