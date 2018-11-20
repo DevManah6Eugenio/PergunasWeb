@@ -1,9 +1,10 @@
 package br.com.perguntasweb.entidades;
 
 public class Perfil {
-    int codigo;
-    String nome;
-    String descricao;
+    
+    private int codigo;
+    private String nome;
+    private String descricao;
 
     public int getCodigo() {
         return codigo;
